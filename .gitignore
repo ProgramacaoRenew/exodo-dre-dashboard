@@ -1,0 +1,25 @@
+# Segredos / config local
+publicador/.env
+config.json
+
+# Planilhas (dados sensíveis — nunca no git)
+*.xlsx
+*.xlsm
+
+# Build do publicador (fase 2)
+publicador/build/
+publicador/dist/
+publicador/*.spec
+installer/Output/
+
+# Python
+__pycache__/
+*.pyc
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# documentos internos
+BRIEFING_*.md
